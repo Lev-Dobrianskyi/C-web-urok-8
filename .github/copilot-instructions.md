@@ -14,8 +14,6 @@
 
     Test coverage must be at least 80% for new code
 
-    Include integration tests for database operations
-
     Test both success and failure scenarios for API endpoints
 
     Validate model validation rules in tests
@@ -23,8 +21,6 @@
     Use xUnit as the testing framework
 
     Mock external dependencies using Moq
-
-    Run all tests locally before creating a pull request
 
     Tests must pass in CI/CD pipeline
 
@@ -35,15 +31,9 @@
 
     Confirm the change is necessary and properly documented
 
-    Create a feature branch following naming convention: feature/description or bugfix/description
-
-    Pull the latest changes from the main branch
-
     Update the project documentation if needed
 
     Consider backward compatibility implications
-
-    Check for any open issues or pull requests that might conflict
 
 # After
     Run all tests to ensure no regressions were introduced
@@ -56,12 +46,4 @@
 
     Add comments for complex logic
 
-    Update Swagger/OpenAPI documentation for API changes
-
-    Create a pull request with clear description of changes
-
-    Request code review from at least one team member
-
-    Ensure the build succeeds in the CI/CD pipeline
-
-    Deploy to staging environment first before production
+    Update Swagger/OpenAPI documentation for API changes *If Swagger exists
